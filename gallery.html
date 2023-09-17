@@ -1,0 +1,407 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Chaminda Tours Hambantota</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <!-- font awesome cdn -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <!-- fonts -->
+        <link rel = "stylesheet" href = "font/fonts.css">
+        <!-- normalize css -->
+        <link rel = "stylesheet" href = "css/normalize.css">
+        <!-- custom css -->
+        <link rel = "stylesheet" href = "css/utility.css">
+        <link rel = "stylesheet" href = "css/style.css">
+        <link rel = "stylesheet" href = "css/responsive.css">
+    </head>
+    <body>
+        <!-- navbar  -->
+        <nav class = "navbar">
+            <div class = "container flex">
+                <a href = "index.html" class = "site-brand">
+                    Chaminda <span> Tours Hambantota</span>
+                </a>
+
+                <button type = "button" id = "navbar-show-btn" class = "flex">
+                    <i class = "fas fa-bars"></i>
+                </button>
+                <div id = "navbar-collapse">
+                    <button type = "button" id = "navbar-close-btn" class = "flex">
+                        <i class = "fas fa-times"></i>
+                    </button>
+                    <ul class = "navbar-nav">
+                        <li class = "nav-item">
+                            <a href = "index.html" class = "nav-link">Home</a>
+                        </li>
+                        <li class = "nav-item">
+                            <a href = "gallery.html" class = "nav-link">Gallery</a>
+                        </li>
+                        <li class = "nav-item">
+                            <a href = "blog.html" class = "nav-link">Day Tours</a>
+                        </li>
+                        <li class = "nav-item">
+                            <a href = "about.html" class = "nav-link">About</a>
+                        </li>
+                        <li class = "nav-item">
+                            <a href = "contact.html" class = "nav-link">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <!-- end of navbar  -->
+
+        <!-- header -->
+        <header class = "flex header-sm">
+            <div class = "container">
+                <div class = "header-title">
+                    <br/><br/><br/><br/><br/><br/><br/><br/>
+                    <br/><br/><br/><br/><br/><br/><br/><br/>
+                    <h1>Gallery</h1>
+                    <p>Discover the world of Chaminda Tours through our captivating Gallery Page. Explore stunning landscapes, wildlife encounters, cultural moments, and the joy of travel in a snapshot. Get inspired for your next adventure or relive cherished memories. Join us on a visual journey today!</p>
+                </div>
+            </div>
+        </header>
+        <!-- header -->
+
+        <!-- gallery section -->
+        <div id = "gallery" class = "py-4">
+            <div class = "container">
+                <div class = "gallery-row">
+                    <div class = "gallery-item shadow">
+                        <img src = "images/gallery-1.jpg" alt = "gallery img">
+                        <span class = "zoom-icon">
+                            <i class = "fas fa-search-plus"></i>
+                        </span>
+                    </div>
+                    <div class = "gallery-item shadow">
+                        <img src = "images/gallery-2.jpg" alt = "gallery img">
+                        <span class = "zoom-icon">
+                            <i class = "fas fa-search-plus"></i>
+                        </span>
+                    </div>
+                    <div class = "gallery-item shadow">
+                        <img src = "images/gallery-3.jpg" alt = "gallery img">
+                        <span class = "zoom-icon">
+                            <i class = "fas fa-search-plus"></i>
+                        </span>
+                    </div>
+                    <div class = "gallery-item shadow">
+                        <img src = "images/gallery-4.jpg" alt = "gallery img">
+                        <span class = "zoom-icon">
+                            <i class = "fas fa-search-plus"></i>
+                        </span>
+                    </div>
+                    <div class = "gallery-item shadow">
+                        <img src = "images/gallery-5.jpg" alt = "gallery img">
+                        <span class = "zoom-icon">
+                            <i class = "fas fa-search-plus"></i>
+                        </span>
+                    </div>
+                    <div class = "gallery-item shadow">
+                        <img src = "images/gallery-6.jpg" alt = "gallery img">
+                        <span class = "zoom-icon">
+                            <i class = "fas fa-search-plus"></i>
+                        </span>
+                    </div>
+                    <div class = "gallery-item shadow">
+                        <img src = "images/gallery-7.webp" alt = "gallery img">
+                        <span class = "zoom-icon">
+                            <i class = "fas fa-search-plus"></i>
+                        </span>
+                    </div>
+                    <div class = "gallery-item shadow">
+                        <img src = "images/gallery-8.jpg" alt = "gallery img">
+                        <span class = "zoom-icon">
+                            <i class = "fas fa-search-plus"></i>
+                        </span>
+                    </div>
+                    <div class = "gallery-item shadow">
+                        <img src = "images/gallery-9.jpg" alt = "gallery img">
+                        <span class = "zoom-icon">
+                            <i class = "fas fa-search-plus"></i>
+                        </span>
+                    </div>
+                    <div class = "gallery-item shadow">
+                        <img src = "images/gallery-10.jpg" alt = "gallery img">
+                        <span class = "zoom-icon">
+                            <i class = "fas fa-search-plus"></i>
+                        </span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- end of gallery section -->
+
+        <!-- img modal -->
+        <div id = "img-modal-box">
+            <div id = "img-modal">
+                <button type = "button" id = "modal-close-btn" class = "flex">
+                    <i class = "fas fa-times"></i>
+                </button>
+                <button type = "button" id = "prev-btn" class = "flex">
+                    <i class = "fas fa-chevron-left"></i>
+                </button>
+                <button type = "button" id = "next-btn" class = "flex">
+                    <i class = "fas fa-chevron-right"></i>
+                </button>
+                <img src = "images/gallery-1.jpg">
+            </div>
+        </div>
+        <!-- end of img modal -->
+
+        <!-- popular places section -->
+        <section id = "popular" class = "py-4">
+            <div class = "title-wrap">
+                <span class = "sm-title">KNOW ABOUT SOME HIDE DESTINATION</span>
+                <h2 class = "lg-title">Popular Places</h2>
+            </div>
+
+            <div class = "popular-row">
+                <div class = "popular-item shadow">
+                    <img src = "images/popular-1.jpg" alt = "">
+                    <div>
+                        <span>Polonnaruwa</span>
+                        <ul class = "rating flex">
+                            <li><i class = "fas fa-star"></i></li>
+                            <li><i class = "fas fa-star"></i></li>
+                            <li><i class = "fas fa-star"></i></li>
+                            <li><i class = "fas fa-star"></i></li>
+                            <li><i class = "fas fa-star-half-alt"></i></li>
+                            <li>&nbsp;510 reviews</li>
+                        </ul>
+                        <p class = "text">Polonnaruwa is one of the largest cities in the north-central province of Sri Lanka and is popular as the finest instance of perfectly planned archaeological relic cities in the country.</p>
+                    </div>
+                </div>
+
+
+
+                <div class = "popular-item shadow">
+                    <img src = "images/popular-4.jpg" alt = "">
+                    <div>
+                        <span>Sinharaja Forest Reserve</span>
+                        <ul class = "rating flex">
+                            <li><i class = "fas fa-star"></i></li>
+                            <li><i class = "fas fa-star"></i></li>
+                            <li><i class = "fas fa-star"></i></li>
+                            <li><i class = "fas fa-star"></i></li>
+                            <li><i class = "fas fa-star-half-alt"></i></li>
+                            <li>&nbsp;674 reviews</li>
+                        </ul>
+                        <p class = "text">More than 60% of the trees are endemic to Sinharaja Forest and many of them are considered rare. There is much endemic wildlife, especially birds but the reserve is also home to over 50% of Sri Lanka's endemic species of butterflies & mammals and also many kinds of insects, reptiles and rare amphibians.</p>
+                    </div>
+                </div>
+
+                <div class = "popular-item shadow">
+                    <img src = "images/popular-5.jpg" alt = "">
+                    <div>
+                        <span>Arugam Bay</span>
+                        <ul class = "rating flex">
+                            <li><i class = "fas fa-star"></i></li>
+                            <li><i class = "fas fa-star"></i></li>
+                            <li><i class = "fas fa-star"></i></li>
+                            <li><i class = "fas fa-star"></i></li>
+                            <li><i class = "fas fa-star-half-alt"></i></li>
+                            <li>&nbsp;195 reviews</li>
+                        </ul>
+                        <p class = "text">Arugam Bay is the most popular surf spot and is also the only international surf competition venue in Sri Lanka. It is also rated as one of the top ten surf destinations in the world. It has also hosted most of the international surfing competitions in Sri Lanka since 2004.</p>
+                    </div>
+                </div>
+
+                <div class = "popular-item shadow">
+                    <img src = "images/popular-6.jpg" alt = "">
+                    <div>
+                        <span>Unawatuna Beach</span>
+                        <ul class = "rating flex">
+                            <li><i class = "fas fa-star"></i></li>
+                            <li><i class = "fas fa-star"></i></li>
+                            <li><i class = "fas fa-star"></i></li>
+                            <li><i class = "fas fa-star"></i></li>
+                            <li><i class = "fas fa-star-half-alt"></i></li>
+                            <li>&nbsp;528 reviews</li>
+                        </ul>
+                        <p class = "text">It is popularly known as a family friendly area especially with the shallow water levels most ideal for swimming. Locals flock in the evening to bathe in the sea. The west end of the beach leads to some rocks and stairs to go up a small hill with a pagoda and a big Buddha statue.</p>
+                    </div>
+                </div>
+                <div class = "popular-item shadow">
+                    <img src = "images/popular-2.jpg" alt = "">
+                    <div>
+                        <span>Ulpotha</span>
+                        <ul class = "rating flex">
+                            <li><i class = "fas fa-star"></i></li>
+                            <li><i class = "fas fa-star"></i></li>
+                            <li><i class = "fas fa-star"></i></li>
+                            <li><i class = "fas fa-star"></i></li>
+                            <li><i class = "fas fa-star-half-alt"></i></li>
+                            <li>&nbsp;127 reviews</li>
+                        </ul>
+                        <p class = "text">Ulpotha is a Buddhist agricultural community in the jungle heartland of Sri Lanka, offering guests world class yoga and traditional Ayurveda healing</p>
+                    </div>
+                </div>
+
+                <div class = "popular-item shadow">
+                    <img src = "images/popular-3.jpg" alt = "">
+                    <div>
+                        <span>kandalama</span>
+                        <ul class = "rating flex">
+                            <li><i class = "fas fa-star"></i></li>
+                            <li><i class = "fas fa-star"></i></li>
+                            <li><i class = "fas fa-star"></i></li>
+                            <li><i class = "fas fa-star"></i></li>
+                            <li><i class = "fas fa-star-half-alt"></i></li>
+                            <li>&nbsp;291 reviews</li>
+                        </ul>
+                        <p class = "text">Experience luxury and breathtaking views at the Kandalama Hotel's Panoramic Room. With expansive views over the Kandalama Lake and the hills of Dambulla</p>
+                    </div>
+                </div>
+                <div class = "popular-item shadow">
+                    <img src = "images/popular-7.jpg" alt = "">
+                    <div>
+                        <span>Tawalantenne</span>
+                        <ul class = "rating flex">
+                            <li><i class = "fas fa-star"></i></li>
+                            <li><i class = "fas fa-star"></i></li>
+                            <li><i class = "fas fa-star"></i></li>
+                            <li><i class = "fas fa-star"></i></li>
+                            <li><i class = "fas fa-star-half-alt"></i></li>
+                            <li>&nbsp;302 reviews</li>
+                        </ul>
+                        <p class = "text">Located in Central Province, Sri Lanka, Tawalantenne is home to an impressive selection of attractions and experiences, making it well worth a visit.</p>
+                    </div>
+                </div>
+
+                <div class = "popular-item shadow">
+                    <img src = "images/popular-8.jpg" alt = "">
+                    <div>
+                        <span>Beira Lake</span>
+                        <ul class = "rating flex">
+                            <li><i class = "fas fa-star"></i></li>
+                            <li><i class = "fas fa-star"></i></li>
+                            <li><i class = "fas fa-star"></i></li>
+                            <li><i class = "fas fa-star"></i></li>
+                            <li><i class = "fas fa-star-half-alt"></i></li>
+                            <li>&nbsp;100 reviews</li>
+                        </ul>
+                        <p class = "text">A colonial masterpiece and landmark of Colombo, the Beira Lake is an artificial lake built by the Portuguese in the early 16th century. Located in the heart of the city, this lake was constructed for the purpose in serving as a moat to protect the city from invaders and for transport of weapons and goods.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- end of popular places section -->
+        
+
+        <!-- footer -->
+        <footer class = "py-4">
+            <div class = "container footer-row">
+                <div class = "footer-item">
+                    <a href = "index.html" class = "site-brand">
+                        Chaminda <span>Tours Hambantota</span>
+                    </a>
+                    <p class = "text">We are here to assist you in discovering the finest hotels and ideal locations for your stay. Our mission is to ensure that your travel experience is nothing short of exceptional. Let us be your trusted guide in finding the perfect accommodations and destinations for your </p>
+                </div>
+
+                <div class = "footer-item">
+                    <h2>Follow us on: </h2>
+                    <ul class = "social-links">
+                        <li>
+                            <a href = "#">
+                                <i class = "fab fa-facebook-f"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href = "#">
+                                <i class = "fab fa-instagram"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href = "#">
+                                <i class = "fab fa-twitter"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href = "#">
+                                <i class = "fab fa-pinterest"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href = "#">
+                                <i class = "fab fa-google-plus"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class = "footer-item">
+                    <h2>Popular Places:</h2>
+                    <ul>
+                        <li><a href="#">Ella</a></li>
+                        <li><a href="#">Colombo</a></li>
+                        <li><a href="#">Kandy</a></li>
+                        <li><a href="#">Yala</a></li>
+                        <li><a href="#">Sinharaja</a></li>
+                    </ul>
+                </div>
+
+                <div class = "subscribe-form footer-item">
+                    <h2>Contact Us</h2>
+                    <form class = "flex">
+                        <a href="https://api.whatsapp.com/send?phone=0715414965">
+                            <i class="fab fa-whatsapp" style="font-size: 44px;">   071 541 4965</i>
+                          </a>
+                    </form>
+                </div>
+            </div>
+        </footer>
+        <!-- end of footer -->
+
+        <!-- js -->
+        <script src = "js/script.js"></script>
+        <script>
+            // image modal
+            const allGalleryItem = document.querySelectorAll('.gallery-item');
+            const imgModalDiv = document.getElementById('img-modal-box');
+            const modalCloseBtn = document.getElementById('modal-close-btn');
+            const nextBtn = document.getElementById('next-btn');
+            const prevBtn = document.getElementById('prev-btn');
+            let imgIndex = 0;
+
+            allGalleryItem.forEach((galleryItem) => {
+                galleryItem.addEventListener('click', () => {
+                    imgModalDiv.style.display = "block";
+                    let imgSrc = galleryItem.querySelector('img').src;
+                    imgIndex = parseInt(imgSrc.split("-")[1].substring(0, 1));
+                    showImageContent(imgIndex);
+                })
+            });
+
+            // next click
+            nextBtn.addEventListener('click', () => {
+                imgIndex++;
+                if(imgIndex > allGalleryItem.length){
+                    imgIndex = 1;
+                }
+                showImageContent(imgIndex);
+            });
+
+            // previous click
+            prevBtn.addEventListener('click', () => {
+                imgIndex--;
+                if(imgIndex <= 0){
+                    imgIndex = allGalleryItem.length;
+                }
+                showImageContent(imgIndex);
+            });
+
+            function showImageContent(index){
+                imgModalDiv.querySelector('#img-modal img').src = `images/gallery-${index}.jpg`;
+            }
+
+            modalCloseBtn.addEventListener('click', () => {
+                imgModalDiv.style.display = "none";
+            })
+        </script>
+    </body>
+</html>
